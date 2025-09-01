@@ -1,0 +1,91 @@
+/* Global Reset & Typography */
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #2c3e50;
+  line-height: 1.6;
+  background-color: #fafafa;
+}
+
+/* Header */
+header {
+  background-color: #007bff;
+  color: #fff;
+  padding: 4rem 1rem;
+  text-align: center;
+}
+header h1 {
+  font-size: 2.75rem;
+  margin-bottom: 0.5rem;
+}
+header p {
+  font-size: 1.25rem;
+}
+
+/* Navbar (custom tweaks) */
+.navbar {
+  margin-bottom: 0;
+}
+.nav-link {
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+.nav-link:hover {
+  color: #007bff !important;
+}
+
+/* Section Headings */
+section h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2.25rem;
+  color: #333;
+}
+
+/* Projects Layout */
+#projects .row > div {
+  margin-bottom: 1.5rem;
+}
+#projects h4 {
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+#projects p {
+  color: #555;
+}
+
+/* Contact Section */
+#contact a {
+  color: #007bff;
+  text-decoration: none;
+}
+#contact a:hover {
+  text-decoration: underline;
+}
+
+/* Utility Classes */
+.py-5 {
+  padding-top: 3rem !important;
+  padding-bottom: 3rem !important;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/* Responsive Tweaks */
+@media (max-width: 767px) {
+  header h1 {
+    font-size: 2rem;
+  }
+  header p {
+    font-size: 1rem;
+  }
+  section h2 {
+    font-size: 1.75rem;
+  }
+}
